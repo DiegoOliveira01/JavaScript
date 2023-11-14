@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Analisador de Números</header>
+    <section>
+        <div id="entrada">
+            <label for="fnum">Digite Um Número de 1 até 100</label>
+            <input type="number" name="txtnum" id="fnum">
+            <input type="button" value="Enviar" onclick="validar()"> <br>
+            <select name="tabela" id="tabela" size="20"></select>
+            <input type="button" value="finalizar" onclick="finalizar()">
+        </div>
+        <div id="res">
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <p id="p3"></p>
+            <p id="p4"></p>
+            <p id="p5"></p>
+        </div>
+    </section>
+    <footer>Diego Oliveira</footer>
+    <script src="script.js"></script>
+</body>
+</html>
